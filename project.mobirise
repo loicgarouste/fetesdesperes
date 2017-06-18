@@ -80,10 +80,10 @@
             "overlayColor": "#2980b9",
             "showTitle": true,
             "showText": false,
-            "showVideo": true,
+            "showVideo": false,
             "showButtons": true,
             "showArrow": false,
-            "VideoUrl": "https://youtu.be/cib46ZMr6zQ"
+            "VideoUrl": ""
           },
           "title": "BONNE FETE A TOUS LES PAPAS",
           "text": "",
@@ -94,13 +94,13 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features4",
               "linkInNewWindow": false,
-              "name": "play",
-              "family": "socicon",
+              "name": "play-circle-o",
+              "family": "FontAwesome",
               "active": true,
               "link": "https://youtu.be/cib46ZMr6zQ",
               "size": "80",
               "color": "#f7da64",
-              "newWindow": true
+              "newWindow": false
             }
           },
           "text2": "",
