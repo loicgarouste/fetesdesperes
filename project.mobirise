@@ -21,6 +21,10 @@
         "isScrollToTopButton": false
       }
     },
+    "favicon": "@PROJECT_PATH@/assets/images/vegasfiesta2-128x48.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 4,
     "versionPublish": "3.12.1"
@@ -50,6 +54,9 @@
               "font-size": "19px",
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            "H1": {
+              "color": "#ffdc00"
             }
           },
           "alias": "colorm/components",
@@ -59,7 +66,7 @@
           "_name": "header10",
           "_anchor": "header10-3",
           "_params": {
-            "parallax": false,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
             "bgColor": "#2e2e2e",
@@ -82,17 +89,18 @@
           "text": "",
           "media": {
             "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/play-button.svg"
+              "src": "@THEME_PATH@/components/_images/play-button.svg"
             },
             "iconFont": {
-              "active": false,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "pencil",
-              "link": "#modalWindow",
-              "size": 0,
-              "color": "#e6e6e6",
-              "family": "et-line"
+              "linkInNewWindow": false,
+              "name": "play",
+              "family": "socicon",
+              "active": true,
+              "link": "https://youtu.be/cib46ZMr6zQ",
+              "size": "80",
+              "color": "#f7da64",
+              "newWindow": true
             }
           },
           "text2": "",
