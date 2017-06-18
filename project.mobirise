@@ -1,0 +1,97 @@
+{
+  "settings": {
+    "name": "FETES DES PERES",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#2ecc71",
+        "buttonsColor": "#ecf0f1",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#0c24ff",
+        "titleFont": "Indie Flower",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 3,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".btn": {
+              "font-size": "18px"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-section-text B": {
+              "color": "#000000",
+              "font-size": "23px",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "timeout": "4",
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/slider06.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/cib46ZMr6zQ",
+                "overlay": true,
+                "overlayOpacity": "0",
+                "overlayColor": "#8e44ad",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "BONNE FETE A TOUS LES PAPAS",
+                "showText": true,
+                "text": "<b>Pour profiter de votre cadeau de la fête des pères, connectez vous de suite et reclamez aupres de nos agents</b>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://goo.gl/pVzjsC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VENEZ PRENDRE VOTRE CADEAU ICI</a> "
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#000000",
+            "showBullets": false
+          },
+          "_anchor": "slider3-2",
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrow-left.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrow-right.png\">"
+        }
+      ]
+    }
+  }
+}
