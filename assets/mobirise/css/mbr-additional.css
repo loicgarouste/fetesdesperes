@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
@@ -708,18 +708,15 @@ blockquote {
   font-family: 'Montserrat', sans-serif;
 }
 /*end colorM*/
-#slider3-2 .mbr-section-title,
-#slider3-2 .mbr-section-text {
-  color: #fff;
+#header10-3 .display-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
-#slider3-2 .btn {
-  font-size: 18px;
-}
-#slider3-2 .mbr-section-title {
-  color: #000000;
-}
-#slider3-2 .mbr-section-text B {
-  color: #000000;
+#header10-3 SPAN {
   font-size: 23px;
-  font-family: 'Roboto', sans-serif;
+}
+#header10-3 .btn {
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
 }

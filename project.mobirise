@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 3,
+    "uniqCompNum": 4,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -38,58 +38,66 @@
       "components": [
         {
           "_styles": {
-            ".mbr-section-title, .mbr-section-text": {
-              "color": "#fff"
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            },
+            "SPAN": {
+              "font-size": "23px"
             },
             ".btn": {
-              "font-size": "18px"
-            },
-            ".mbr-section-title": {
-              "color": "#000000"
-            },
-            ".mbr-section-text B": {
-              "color": "#000000",
-              "font-size": "23px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "font-size": "19px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
             }
           },
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "slider3",
+          "_name": "header10",
+          "_anchor": "header10-3",
           "_params": {
-            "autoplay": true,
-            "paddingTop": "2",
-            "paddingBottom": "4",
-            "timeout": "4",
-            "slides": [
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/slider06.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/cib46ZMr6zQ",
-                "overlay": true,
-                "overlayOpacity": "0",
-                "overlayColor": "#8e44ad",
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "BONNE FETE A TOUS LES PAPAS",
-                "showText": true,
-                "text": "<b>Pour profiter de votre cadeau de la fête des pères, connectez vous de suite et reclamez aupres de nos agents</b>",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://goo.gl/pVzjsC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VENEZ PRENDRE VOTRE CADEAU ICI</a> "
-              }
-            ],
-            "fullScreen": false,
-            "bgColor": "#000000",
-            "showBullets": false
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#2980b9",
+            "showTitle": true,
+            "showText": false,
+            "showVideo": true,
+            "showButtons": true,
+            "showArrow": false,
+            "VideoUrl": "https://youtu.be/cib46ZMr6zQ"
           },
-          "_anchor": "slider3-2",
-          "articleLayout": false,
-          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrow-left.png\">",
-          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrow-right.png\">"
+          "title": "BONNE FETE A TOUS LES PAPAS",
+          "text": "",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/play-button.svg"
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "text2": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://goo.gl/pVzjsC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">venez recuperer votre cadeau ici</a>",
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png"
         }
       ]
     }
